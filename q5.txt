@@ -1,0 +1,5 @@
+1. No, the change made to the function increment_int_ a does not change the variable a after calling the function
+
+2. Yes, the change made to the function increment_int_ b does change the variable b after calling the function
+
+3. The answers to the two questions above are different because the variable a stores the integer, which is the primitive types. Since primitive types are immutable, which means they cannot be changed, as well as, do not have references. Based on that definition, when we pass the variable a to the function "increment_int_a," we're basically just passing the number, and any changes made to that number won't be reflected in the variable a. On the other hand, the variable b contains the list, which is the object, so it has reference pointed to it. Since each object will have a single unique reference, when we pass the variable b to the function "increment_ int_b," we are passing a reference or the object itself to the function. When the function makes some change to that reference, it will reflect back to the object of that reference, which is stored in the variable b.
