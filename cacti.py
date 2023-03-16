@@ -43,4 +43,3 @@ def cacti_number(plantation):
     return availablePlots
             
 
-print(cacti_number([[]]))
