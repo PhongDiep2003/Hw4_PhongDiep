@@ -41,6 +41,5 @@ def cacti_number(plantation):
                 availablePlots += 1
     
     return availablePlots
-            
 
-print(cacti_number([[]]))
+      
