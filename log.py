@@ -1,6 +1,7 @@
 import time
 def timestamp(anotherFunct):
-    print(time.ctime())
-    return anotherFunct
-
+    def wrapperFunc():
+        print(time.ctime())
+        anotherFunct()
+    return wrapperFunc
 

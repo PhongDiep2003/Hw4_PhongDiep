@@ -1,7 +1,7 @@
 def double(anotherFunct):
-    anotherFunct()
     def wrapperFunc():
       anotherFunct()
-    print("Let's try that again!")
+      print("Let's try that again!")
+      anotherFunct()
     return wrapperFunc
 
