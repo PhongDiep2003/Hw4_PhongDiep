@@ -9,4 +9,3 @@ def palindrome(arr):
   return True
 
 
-      

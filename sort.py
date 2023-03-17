@@ -8,3 +8,4 @@ def sort_dictionary(dict):
         tup = (i[0], i[1][0])
         result.append(tup)
     return result
+

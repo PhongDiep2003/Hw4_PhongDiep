@@ -42,4 +42,3 @@ def cacti_number(plantation):
     
     return availablePlots
 
-

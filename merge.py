@@ -20,3 +20,4 @@ def merge(arr1, arr2):
             mergedList.append(arr2[index2])
             index2 += 1
     return mergedList
+
